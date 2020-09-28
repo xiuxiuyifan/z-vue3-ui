@@ -20,13 +20,13 @@
 </template>
 
 <script lang="ts">
-import {inject,Ref} from 'vue'
+import {inject,ref} from 'vue'
 import TopNav from '../components/TopNav.vue';
 export default {
   name:'view-doc',
   components: {TopNav},
   setup() {
-    const menuVisible = inject<Ref<boolean>>('menuVisible')
+    const menuVisible = inject<ref<boolean>>('menuVisible')
     return {
       menuVisible
     }
@@ -55,6 +55,7 @@ export default {
     top: 60px;
     left: 0;
     bottom: 0;
+    border-right: 1px solid #e8e8e8;
     .menu{
       padding: 0px 10px 30px 20px;
       .ul{
@@ -90,6 +91,7 @@ export default {
       transition: all 0.4s cubic-bezier(0.4, 0, 0, 1);
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
       transform: translateX(-280px);
+      border-right: 0;
     }
     .open{
       transform: translateX(0px);

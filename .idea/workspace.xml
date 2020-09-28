@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/cube-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/theme.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/less/_var.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/less/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/SwitchDoc.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
+    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="本地提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/_var.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/_var.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SwitchDoc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
@@ -93,7 +72,7 @@
       <workItem from="1600874823987" duration="3275000" />
       <workItem from="1600949160911" duration="61000" />
       <workItem from="1601303273645" duration="945000" />
-      <workItem from="1601304230888" duration="315000" />
+      <workItem from="1601304230888" duration="5300000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -109,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601304480522</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="本地提交">
+      <created>1601304752059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601304752059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +104,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目并编写官网样式" />
     <MESSAGE value="提交文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交文件" />
+    <MESSAGE value="本地提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="153" key="#Deployment" timestamp="1601304182220">
@@ -129,14 +116,14 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1599883572337" />
-    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1601304202140">
+    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1601304793654">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304202140" />
-    <state x="395" y="97" key="DiffContextDialog" timestamp="1601304064337">
+    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304793654" />
+    <state x="395" y="97" key="DiffContextDialog" timestamp="1601304569866">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="395" y="97" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304064337" />
+    <state x="395" y="97" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304569866" />
     <state x="553" y="275" key="MultipleFileMergeDialog" timestamp="1601304008923">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -149,14 +136,22 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="424" y="135" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1599883524842" />
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1601303951924">
+    <state x="626" y="0" key="VCS.ChangelistChooser" timestamp="1601304621387">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601303951924" />
+    <state x="626" y="0" key="VCS.ChangelistChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1601304621387" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1601304801755">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304801755" />
     <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600098840421">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600098840421" />
+    <state x="1026" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601304605410">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1026" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304605410" />
     <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601304217561">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

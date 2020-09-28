@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/cube-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/src/theme.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-sell-cube/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/less/_var.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/less/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/SwitchDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hOJIm18ijXLElHzvcNolCrRCXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="E:\program\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="" />
+      <created>1599876128227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599876128227</updated>
+      <workItem from="1599876129321" duration="15846000" />
+      <workItem from="1600085259733" duration="8691000" />
+      <workItem from="1600170737383" duration="6024000" />
+      <workItem from="1600874823987" duration="3275000" />
+      <workItem from="1600949160911" duration="61000" />
+      <workItem from="1601303273645" duration="945000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
+      <created>1601303944572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601303944572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目并编写官网样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目并编写官网样式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="153" key="#Deployment" timestamp="1601304182220">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="714" y="153" key="#Deployment/0.0.2048.1152@0.0.2048.1152" timestamp="1601304182220" />
+    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599883572337">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1599883572337" />
+    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1601304202140">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304202140" />
+    <state x="395" y="97" key="DiffContextDialog" timestamp="1601304064337">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="395" y="97" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304064337" />
+    <state x="553" y="275" key="MultipleFileMergeDialog" timestamp="1601304008923">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="553" y="275" key="MultipleFileMergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304008923" />
+    <state x="980" y="104" key="RollbackChangesDialog" timestamp="1601304103889">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="980" y="104" key="RollbackChangesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304103889" />
+    <state x="424" y="135" key="SettingsEditor" timestamp="1599883524842">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="424" y="135" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1599883524842" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1601303951924">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601303951924" />
+    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600098840421">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600098840421" />
+    <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601304217561">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304217561" />
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1600095255077">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1600095255077" />
+  </component>
+</project>

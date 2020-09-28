@@ -43,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hOJIm18ijXLElHzvcNolCrRCXW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -93,6 +93,7 @@
       <workItem from="1600874823987" duration="3275000" />
       <workItem from="1600949160911" duration="61000" />
       <workItem from="1601303273645" duration="945000" />
+      <workItem from="1601304230888" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601303944572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交文件">
+      <created>1601304480522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601304480522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目并编写官网样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目并编写官网样式" />
+    <MESSAGE value="提交文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="153" key="#Deployment" timestamp="1601304182220">

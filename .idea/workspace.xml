@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="本地提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/_var.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/less/_var.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
@@ -73,6 +72,7 @@
       <workItem from="1600949160911" duration="61000" />
       <workItem from="1601303273645" duration="945000" />
       <workItem from="1601304230888" duration="5300000" />
+      <workItem from="1601542825277" duration="4604000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -144,9 +144,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304801755" />
-    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600098840421">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="87" y="87" width="1746" height="906" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601543169829">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="87" y="87" width="1746" height="906" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601543169829" />
     <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600098840421" />
     <state x="1026" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601304605410">
       <screen x="0" y="0" width="2048" height="1152" />

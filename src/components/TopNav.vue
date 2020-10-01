@@ -53,7 +53,7 @@ export default {
   height: 60px;
   padding: 10px 60px;
   color: #69258d;
-  box-shadow: 0 2px 8px #f0f1f2;
+  box-shadow: 0 0 1px rgba(0,0,0,0.25);
   z-index: 10;
   font-size: 16px;
   background: #fff;

@@ -40,6 +40,9 @@ export default {
 
 <style lang="less" scoped>
 .doc{
+  /deep/.top-nav,.mobel-nav{
+    box-shadow: 0 2px 8px #f0f1f2;
+  }
   .router-view-wrapper{
       padding-top: 70px;
       position: relative;

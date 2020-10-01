@@ -6,14 +6,14 @@
 import {ref} from 'vue'
 export default {
   name:'z-switch',
-  setup() {
-    //ref 表示基本类型也需要响应式
-    const value = ref<boolean>(false)
-    const toggle = ()=>{
-      value.value = !value.value
+  props: {
+    value:Boolean
+  },
+  setup(props, context) {
+    const toggle = () => {
+      context.emit('update:value',!props.value)
     }
     return {
-      value,
       toggle
     }
   }
@@ -28,16 +28,25 @@ export default {
   vertical-align: middle;
   cursor: pointer;
   border-radius: 10px;
-  outline: none;
   border: 0;
   position: relative;
   background: #e3e3e3;
   margin:0;
   padding: 0;
+  &:focus{
+    outline: none;
+  }
   &.open{
     background: @theme;
     .item{
-      left: calc(100% - 17px);
+      left: 100%;
+      margin-left: -1px;
+      transform: translateX(-100%);
+    }
+  }
+  &:active{
+    .item{
+      width: 22px;
     }
   }
   .item{

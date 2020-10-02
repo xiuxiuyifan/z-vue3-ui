@@ -39,7 +39,7 @@ export default {
     background: @theme !important; //自定义颜色
   }
   .spinner-icon{
-    border-color: rgb(206, 187, 232) transparent transparent @theme;
+    border-color: @theme transparent transparent @theme;
   }
 }
 </style>

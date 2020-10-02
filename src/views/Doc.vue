@@ -3,12 +3,28 @@
     <top-nav></top-nav>
     <div class="menu-wrapper" :class="{'open':menuVisible}">
       <div class="menu">
+        <h2>文档</h2>
         <ul class="ul">
           <li class="item-li">
-            <router-link to="/doc/tab">tab组件</router-link>
+            <router-link class="link-a" to="/doc/introduce">介绍</router-link>
           </li>
           <li class="item-li">
-            <router-link to="/doc/switch">switch组件</router-link>
+            <router-link class="link-a" to="/doc/fast">快速上手</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/use">使用</router-link>
+          </li>
+        </ul>
+        <h2>组件</h2>
+        <ul class="ul">
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/switch">switch组件</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/button">button组件</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/tab">tab组件</router-link>
           </li>
         </ul>
       </div>
@@ -60,13 +76,31 @@ export default {
     bottom: 0;
     border-right: 1px solid #e8e8e8;
     .menu{
-      padding: 0px 10px 30px 20px;
+      h2{
+        font-size: 22px;
+        line-height: 22px;
+        padding: 10px;
+      }
       .ul{
         .item-li{
-          .link-active{
-            color: #69258d;
+          .link-a{
+            display: inline-block;
+            padding: 10px 0;
+            width: 100%;
+            padding-left: 20px;
+            position: relative;
           }
-          padding: 10px 0;
+          .link-active{
+            background: linear-gradient(145deg, rgb(239, 228, 255) 0%, rgb(206, 187, 232) 100%);
+            &:after{
+              content: '';
+              position: absolute;
+              top: 0;
+              right: 0;
+              height: 100%;
+              border-right: 3px solid  rgb(110, 2, 195);
+            }
+          }
         }
       }
     }
@@ -81,6 +115,9 @@ export default {
 }
 @media (max-width: 900px){
   .doc{
+    .router-view-wrapper{
+      padding: 70px 20px;
+    }
     .menu-wrapper{
       width: 260px;
       position: fixed;

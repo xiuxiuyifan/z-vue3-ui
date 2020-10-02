@@ -12,7 +12,7 @@
     </ul>
   </div>
   <div class="mobel-nav">
-    <svg class="menu" v-if="isDoc" aria-hidden="true" @click="toggleMenu">
+    <svg class="menu" v-if="!isHome" aria-hidden="true" @click="toggleMenu">
       <use xlink:href="#icon-weibiaoti302"></use>
     </svg>
     <svg class="vue" aria-hidden="true">
@@ -26,20 +26,27 @@ import {getCurrentInstance,inject,ref} from 'vue'
 export default {
   name:'top-nav',
   setup(props,context) {
-    const {ctx} = getCurrentInstance()
     const menuVisible = inject<ref<boolean>>('menuVisible')
-    const path = ctx.$router.currentRoute.value.path
-    const isDoc = path === '/doc/tab'
-
     const toggleMenu = () => {
       menuVisible.value = !menuVisible.value
     }
     return {
       toggleMenu,
-      isDoc
     }
   },
+  data(){
+    return {
+      isHome:false
+    }
+  },
+  mounted() {
+    this.isHome = this.checkPath()
+  },
   methods: {
+    checkPath(){
+      let path =this.$route.path
+      return path === '/' ? true : false
+    }
   }
 }
 </script>

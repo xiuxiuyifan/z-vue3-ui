@@ -1,5 +1,5 @@
 <template>
-  <button class="z-button" :class="{open:value}" @click="toggle"><span class="item"></span></button>
+  <button class="z-switch" :class="{open:value}" @click="toggle"><span class="item"></span></button>
 </template>
 
 <script lang="ts">
@@ -19,9 +19,9 @@ export default {
   }
 }
 </script>
-<style lang="less" scoped>
+<style lang="less">
 @import "../assets/less/_var.less";
-.z-button{
+.z-switch{
   min-width: 40px;
   height: 20px;
   display: inline-block;

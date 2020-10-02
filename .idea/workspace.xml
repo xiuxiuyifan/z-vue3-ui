@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="本地提交">
+    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo/SwitchDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/markdowm/introduce.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ButtonDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/FastDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SwitchDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +65,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\code\vue\z-vue-ui\src" />
       <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
     </key>
   </component>
@@ -72,7 +88,9 @@
       <workItem from="1600949160911" duration="61000" />
       <workItem from="1601303273645" duration="945000" />
       <workItem from="1601304230888" duration="5300000" />
-      <workItem from="1601542825277" duration="4604000" />
+      <workItem from="1601542825277" duration="8608000" />
+      <workItem from="1601600716475" duration="4746000" />
+      <workItem from="1601607211378" duration="11118000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -95,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601304752059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="switch组件基本完成，添加active小动画">
+      <created>1601555178074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601555178074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +130,8 @@
     <MESSAGE value="初始化项目并编写官网样式" />
     <MESSAGE value="提交文件" />
     <MESSAGE value="本地提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="本地提交" />
+    <MESSAGE value="switch组件基本完成，添加active小动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch组件基本完成，添加active小动画" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="153" key="#Deployment" timestamp="1601304182220">
@@ -116,9 +142,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1599883572337" />
-    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1601304793654">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="531" y="0" key="CommitChangelistDialog2" timestamp="1601555177095">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="531" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601555177095" />
     <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304793654" />
     <state x="395" y="97" key="DiffContextDialog" timestamp="1601304569866">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -157,6 +184,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304217561" />
+    <state x="593" y="195" width="733" height="690" key="find.popup" timestamp="1601613226471">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="593" y="195" width="733" height="690" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601613226471" />
     <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1600095255077">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

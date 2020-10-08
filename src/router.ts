@@ -11,6 +11,7 @@ import Button from './views/ButtonDoc.vue'
 import Introduce from './views/IntroduceDoc.vue'
 import Fast from './views/FastDoc.vue'
 import Use from './views/UseDoc.vue'
+import Modal from './views/ModalDoc.vue'
 
 const router = createRouter( {
   history: hashRouter,
@@ -26,7 +27,8 @@ const router = createRouter( {
         {path: 'use', component: Use},
         {path: 'tab', component: Tab},
         {path: 'switch', component: Switch},
-        {path: 'button', component: Button}
+        {path: 'button', component: Button},
+        {path: 'modal', component: Modal}
       ]
     }
   ]

@@ -26,6 +26,9 @@
           <li class="item-li">
             <router-link class="link-a" to="/doc/tab">tab组件</router-link>
           </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/modal">modal组件</router-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -76,19 +79,24 @@ export default {
     bottom: 0;
     border-right: 1px solid #e8e8e8;
     .menu{
+      padding-top: 10px;
       h2{
-        font-size: 22px;
         line-height: 22px;
         padding: 10px;
+        font-size: 16px;
+        color: #333;
+        font-weight: 700;
       }
       .ul{
         .item-li{
           .link-a{
             display: inline-block;
-            padding: 10px 0;
+            padding: 13px 0;
             width: 100%;
             padding-left: 20px;
             position: relative;
+            color: #444;
+            font-size: 14px;
           }
           .link-active{
             background: linear-gradient(145deg, rgb(239, 228, 255) 0%, rgb(206, 187, 232) 100%);

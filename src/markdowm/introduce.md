@@ -1,28 +1,3 @@
-# 开始使用
-请先[安装](#/doc/install)本组件库。
-
-然后在你的代码中写入下面的代码
-
-```
-import {Button, Tabs, Switch, Dialog} from "king-ui"
-```
-
-就可以使用我提供的组件了。
-
-## Vue 单文件组件
-
-代码示例：
-
-```
-<template>
-  <div>
-    <Button>按钮</Button>
-  </div>
-</template>
-<script>
-import {Button, Tabs, Switch, Dialog} from "king-ui"
-export default {
-  components: {Button}
-}
-</script>
-```
+### 项目介绍
+本项目是为了学习vue3.0而写的一个组件库，使用`typescript`、`less`可以让你快速学习vue3的新特性。项目仅供学习。（请勿在生产环境中使用）
+### 重要概念

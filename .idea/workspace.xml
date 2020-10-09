@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tab/TabItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ModalDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tab.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tab/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/markdowm/introduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/introduce.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ButtonDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ModalDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ModalDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/TabDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +83,7 @@
       <workItem from="1601871150038" duration="598000" />
       <workItem from="1602161707421" duration="590000" />
       <workItem from="1602162313868" duration="7314000" />
+      <workItem from="1602246177635" duration="7448000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -199,9 +197,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="593" y="195" width="733" height="690" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601613226471" />
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602167458065">
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602257092648">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602167458065" />
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602257092648" />
   </component>
 </project>

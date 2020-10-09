@@ -1,9 +1,9 @@
 <template>
   <div>tab组件文档</div>
   <z-tab v-model:active-key="activeKey">
-    <z-tab-item key="1" title="tab1">第一个</z-tab-item>
-    <z-tab-item key="2" title="tab2">第二个</z-tab-item>
-    <z-tab-item key="3" title="tab3">第三个</z-tab-item>
+    <z-tab-item class="tab-item-doc" key="1" title="学习">学习</z-tab-item>
+    <z-tab-item class="tab-item-doc" key="2" title="放映厅">放映厅</z-tab-item>
+    <z-tab-item class="tab-item-doc" key="3" title="单机游戏">单机游戏</z-tab-item>
   </z-tab>
 </template>
 <script lang="ts">
@@ -20,3 +20,10 @@ export default {
   }
 };
 </script>
+
+<style lang="less" scoped>
+.tab-item-doc {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+</style>

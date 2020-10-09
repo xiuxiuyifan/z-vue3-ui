@@ -1,6 +1,5 @@
 <template>
-  <article class="markdown-body" v-html="content">
-
+  <article class="article-wrapper markdown-body" v-html="content">
   </article>
 </template>
 
@@ -13,8 +12,9 @@ export default {
     .then((res)=>{
       content.value = res.default
     })
-    .catch((err)=>{
-      console.log(err);})
+        .catch((err) => {
+          console.log(err);
+        })
 
     return {
       content
@@ -22,3 +22,9 @@ export default {
   }
 }
 </script>
+
+<style lang="less" scoped>
+.article-wrapper {
+  padding: 40px 0;
+}
+</style>

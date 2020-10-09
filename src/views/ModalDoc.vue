@@ -1,6 +1,6 @@
 <template>
   <z-button size="mini" theme="primary" @click="showModal">打开对话框</z-button>
-  <z-modal></z-modal>
+  <z-modal v-model:visible="visible"></z-modal>
 </template>
 <script lang="ts">
 import {ref} from 'vue'
@@ -12,11 +12,13 @@ export default {
   setup() {
 
     const visible = ref<boolean>(false)
+
     const showModal = () => {
       visible.value = true
     }
     return {
-      showModal
+      showModal,
+      visible
     }
   }
 };

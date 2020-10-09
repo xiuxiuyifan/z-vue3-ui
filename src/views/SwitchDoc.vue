@@ -2,7 +2,7 @@
   <div>
     <h2>switch组件文档</h2>
     <div class="show-content">
-      <z-switch :value="check" @update:value="check = $event"></z-switch>
+      <z-switch v-model:value="check" @update:value="check = $event"></z-switch>
     </div>
 
     <switch-demo></switch-demo>

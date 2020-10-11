@@ -4,19 +4,18 @@
     <div class="show-content">
       <z-switch v-model:value="check" @update:value="check = $event"></z-switch>
     </div>
-
-    <switch-demo></switch-demo>
+    <code-per path="../demo-code/Switch.vue"></code-per>
   </div>
 </template>
 
 <script lang="ts">
 import {ref} from 'vue'
 import ZSwitch from "../components/Switch.vue";
-import SwitchDemo from "../demo/SwitchDemo.vue";
+import CodePer from "../components/CodePer.vue";
 
 export default {
-  components: {SwitchDemo, ZSwitch},
-  setup(){
+  components: {CodePer, ZSwitch},
+  setup() {
     const check = ref<boolean>(true)
     return {
       check

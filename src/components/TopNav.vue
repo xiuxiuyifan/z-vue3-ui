@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts">
-import {getCurrentInstance,inject,ref} from 'vue'
+import {inject, ref} from 'vue'
 export default {
   name:'top-nav',
   setup(props,context) {
@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     checkPath(){
-      let path =this.$route.path
+      let path = this.$route.path
       return path === '/' ? true : false
     }
   }

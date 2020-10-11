@@ -1,6 +1,6 @@
 <template>
   <button class="z-button" :class="classes">
-    <span v-if="loading" class="z-button-spin"><svg class="menu" v-if="!isHome" aria-hidden="true" @click="toggleMenu">
+    <span v-if="loading" class="z-button-spin"><svg class="menu" aria-hidden="true" @click="toggleMenu">
       <use xlink:href="#icon-jiazaizhong"></use>
     </svg></span>
     <span><slot/></span>

@@ -1,46 +1,8 @@
 <template>
 <div class="container">
-  <h2>基础用法</h2>
-  <p>button的基础用法</p>
-  <!--展示代码的地方-->
-
-  <div class="fold-code">
-    <div class="demo-wrapper">
-      <z-button class="b-m b-b">默认按钮</z-button>
-      <z-button theme="primary" class="b-m b-b">主要按钮</z-button>
-      <z-button theme="success" class="b-m b-b">成功按钮</z-button>
-      <z-button theme="warning" class="b-m b-b">警告按钮</z-button>
-      <z-button theme="info" class="b-m b-b">信息按钮</z-button>
-      <z-button theme="danger" class="b-m">危险按钮</z-button>
-      <z-button theme="text" class="b-m">文字按钮</z-button>
-    </div>
-    <code-per ref="codePer" path="../demo-code/Button.vue"></code-per>
-
-  </div>
-
-  <h2>不同尺寸</h2>
-  <p>提供三种不同尺寸的按钮</p>
-  <z-button class="b-m">默认大小</z-button>
-  <z-button class="b-m" size="small">中等按钮</z-button>
-  <z-button class="b-m" size="mini">超小按钮</z-button>
-
-  <code-per path="../demo-code/Button1.vue"></code-per>
-
-  <!--展示代码的地方-->
-
-  <h2>加载中</h2>
-  <p>点击按钮进行数据加载操作，在按钮上面显示加载状态</p>
-  <z-button loading>加载中</z-button>
-
-  <code-per path="../demo-code/Button2.vue"></code-per>
-
-
-  <!--展示代码的地方-->
-
-
-  <!--组件参数展示-->
-
-
+  <demo title="基础用法" description="button的基础用法" :component="ButtonDemo"></demo>
+  <demo title="不同尺寸" description="提供三种不同尺寸的按钮" :component="ButtonDemo1"></demo>
+  <demo title="加载中" description="点击按钮进行数据加载操作，在按钮上面显示加载状态" :component="ButtonDemo2"></demo>
 </div>
 </template>
 
@@ -48,10 +10,20 @@
 import {onMounted, nextTick} from 'vue'
 import ZButton from "../components/Button.vue";
 import CodePer from "../components/CodePer.vue";
+import ButtonDemo from "../demo-code/Button.vue";
+import Demo from "../components/Demo.vue";
+import ButtonDemo1 from "../demo-code/Button1.vue";
+import ButtonDemo2 from "../demo-code/Button2.vue";
+
 export default {
-  components: {CodePer, ZButton},
+  components: {Demo, ZButton},
   setup(props, context) {
 
+    return {
+      ButtonDemo,
+      ButtonDemo1,
+      ButtonDemo2,
+    }
   },
   mounted() {
 
@@ -60,39 +32,6 @@ export default {
 </script>
 <style lang="less" scoped>
 .container{
-  h2{
-    font-weight: 400;
-    color: #1f2f3d;
-    font-size: 22px;
-    margin: 55px 0 20px;
-  }
-  p{
-    font-size: 14px;
-    color: #5e6d82;
-    line-height: 1.5em;
-    margin: 14px 0;
-  }
 
-  padding: 40px;
-
-  .b-m {
-    margin-right: 15px
-  }
-
-  .b-b {
-    margin-bottom: 15px;
-  }
-
-  .demo-wrapper {
-    padding: 24px
-  }
-
-  .fold-code {
-    //height: 0;
-    overflow: hidden;
-    border: 1px solid #ebebeb;
-    border-radius: 3px;
-    transition: .2s;
-  }
 }
 </style>

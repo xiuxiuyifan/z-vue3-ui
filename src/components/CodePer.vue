@@ -12,8 +12,8 @@ const Prism = (window as any).Prism
 export default {
   name: 'code-per',
   props: {
-    path: {
-      type: String
+    component: {
+      type: Object
     }
   },
   setup(props, context) {
@@ -27,20 +27,14 @@ export default {
     }
   },
   mounted() {
-    import(this.path)
-        .then((res) => {
-          this.html = Prism.highlight(res.default.__sourceCode, Prism.languages.javascript, 'javascript')
-          this.$nextTick(() => {
-            console.log('hi');
-            const codePer = this.$refs.codePer
-            let {height} = codePer.getBoundingClientRect()
-            this.height = height
-            console.log(height);
-          })
-        })
-        .catch((err) => {
-          console.log(err);
-        })
+    //由于打包后不支持
+    //换成传入组件的形式
+    this.html = Prism.highlight(this.component.__sourceCode, Prism.languages.javascript, 'javascript')
+    this.$nextTick(() => {
+      const codePer = this.$refs.codePer
+      let {height} = codePer.getBoundingClientRect()
+      this.height = height
+    })
   }
 }
 </script>

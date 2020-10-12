@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/openModal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo-code/Button.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo-code/Button1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo-code/Button2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/Button1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/Button2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/introduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/introduce.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ButtonDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FastDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FastDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ModalDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ModalDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SwitchDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UseDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,8 @@
       <workItem from="1602162313868" duration="7314000" />
       <workItem from="1602246177635" duration="8770000" />
       <workItem from="1602390202650" duration="2079000" />
-      <workItem from="1602407667096" duration="21214000" />
+      <workItem from="1602407667096" duration="21913000" />
+      <workItem from="1602515640765" duration="4462000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -153,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602258867894</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="组件基本完成，开始规划官网页面">
+      <created>1602434133124</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602434133124</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +169,8 @@
     <MESSAGE value="官网再次完善" />
     <MESSAGE value="按钮支持tab选中" />
     <MESSAGE value="开始写Modal组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始写Modal组件" />
+    <MESSAGE value="组件基本完成，开始规划官网页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="组件基本完成，开始规划官网页面" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -179,11 +182,11 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1599883572337" />
-    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602258867170">
+    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602434131940">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="531" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601647846932" />
-    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602258867170" />
+    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602434131940" />
     <state x="395" y="97" key="DiffContextDialog" timestamp="1601304569866">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -204,10 +207,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="626" y="0" key="VCS.ChangelistChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1601304621387" />
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602258874990">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602434139433">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602258874990" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602434139433" />
     <state x="87" y="87" width="1746" height="906" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601543169829">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -226,9 +229,9 @@
     </state>
     <state x="593" y="195" width="733" height="690" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601613226471" />
     <state x="633" y="208" width="782" height="736" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602426496192" />
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602257092648">
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602519906651">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602257092648" />
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602519906651" />
   </component>
 </project>

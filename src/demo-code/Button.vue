@@ -16,6 +16,17 @@
 import ZButton from "../components/Button.vue";
 
 export default {
+  name: 'button-demo',
   components: {ZButton}
 }
 </script>
+
+<style lang="less" scoped>
+.b-m {
+  margin-right: 15px
+}
+
+.b-b {
+  margin-bottom: 15px;
+}
+</style>

@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <h2>switch组件文档</h2>
-    <div class="show-content">
-      <z-switch v-model:value="check" @update:value="check = $event"></z-switch>
-    </div>
-    <code-per path="../demo-code/Switch.vue"></code-per>
+  <div class="container">
+    <demo title="基本用法" description=开关按钮的基本用法" :component="SwitchDemo"></demo>
   </div>
 </template>
 
@@ -12,13 +8,14 @@
 import {ref} from 'vue'
 import ZSwitch from "../components/Switch.vue";
 import CodePer from "../components/CodePer.vue";
+import Demo from "../components/Demo.vue";
+import SwitchDemo from "../demo-code/Switch.vue";
 
 export default {
-  components: {CodePer, ZSwitch},
+  components: {Demo, CodePer, ZSwitch},
   setup() {
-    const check = ref<boolean>(true)
     return {
-      check
+      SwitchDemo
     }
   }
 }

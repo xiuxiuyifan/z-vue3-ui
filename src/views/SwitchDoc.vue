@@ -1,18 +1,15 @@
 <template>
   <div class="container">
-    <demo title="基本用法" description=开关按钮的基本用法" :component="SwitchDemo"></demo>
+    <demo-doc title="基本用法" description="开关按钮的基本用法" :component="SwitchDemo"></demo-doc>
   </div>
 </template>
 
 <script lang="ts">
-import {ref} from 'vue'
-import ZSwitch from "../components/Switch.vue";
-import CodePer from "../components/CodePer.vue";
-import Demo from "../components/Demo.vue";
 import SwitchDemo from "../demo-code/Switch.vue";
+import DemoDoc from "../components/Demo.vue";
 
 export default {
-  components: {Demo, CodePer, ZSwitch},
+  components: {DemoDoc},
   setup() {
     return {
       SwitchDemo

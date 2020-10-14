@@ -1,8 +1,10 @@
 <demo>
-eg
+示例代码
 </demo>
 <template>
-  <z-button loading>加载中</z-button>
+  <div>
+    <z-button loading>加载中</z-button>
+  </div>
 </template>
 
 <script lang="ts">

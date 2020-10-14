@@ -1,5 +1,5 @@
 <demo>
-常规使用
+示例代码
 </demo>
 <template>
   <div>
@@ -16,7 +16,7 @@ export default {
     ZSwitch,
   },
   setup() {
-    const check = ref<boolean>(true)
+    const check = ref(true)
     return {
       check
     }

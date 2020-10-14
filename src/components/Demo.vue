@@ -3,12 +3,7 @@
     <h2>{{ title }}</h2>
     <p>{{ description }}</p>
     <!--展示代码的地方-->
-    <div class="fold-code">
-      <div class="demo-wrapper">
-        <component :is="component"></component>
-      </div>
-      <code-per ref="codePer" :component="component"></code-per>
-    </div>
+    <code-per ref="codePer" :component="component"></code-per>
   </div>
 </template>
 
@@ -16,7 +11,7 @@
 import CodePer from "./CodePer.vue";
 
 export default {
-  name: 'demo',
+  name: 'demo-doc',
   components: {CodePer},
   props: {
     title: {
@@ -49,18 +44,6 @@ export default {
     color: #5e6d82;
     line-height: 1.5em;
     margin: 14px 0;
-  }
-
-  .demo-wrapper {
-    padding: 24px
-  }
-
-  .fold-code {
-    //height: 0;
-    overflow: hidden;
-    border: 1px solid #ebebeb;
-    border-radius: 3px;
-    transition: .2s;
   }
 }
 </style>

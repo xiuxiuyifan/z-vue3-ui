@@ -24,10 +24,10 @@
 [Vuex]()
 
 ### 项目展示
-![首页](http:wangfan.store/static/3.png)
-![介绍](http:wangfan.store/static/4.png)
-![switch组件](http:wangfan.store/static/5.png)
-![button组件](http:wangfan.store/static/6.png)
-![tab组件](http:wangfan.store/static/7.png)
+![首页](http://wangfan.store/static/3.png)
+![介绍](http://wangfan.store/static/4.png)
+![switch组件](http://wangfan.store/static/5.png)
+![button组件](http://wangfan.store/static/6.png)
+![tab组件](http://wangfan.store/static/7.png)
 
 

@@ -5,6 +5,7 @@
       <h1>Vue UI框架</h1>
       <h2>用心创造，与君同行。</h2>
       <div class="btn">
+        <a target="_blank" href="https://gitee.com/xiuxiuyifan/z-vue3-ui" class="git">码云</a>
         <a target="_blank" href="https://github.com/xiuxiuyifan/z-vue3-ui" class="git">GitHub</a>
         <router-link to="/doc/tab">开始</router-link>
       </div>

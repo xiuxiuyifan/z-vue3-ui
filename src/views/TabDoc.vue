@@ -1,29 +1,40 @@
 <template>
-  <div>tab组件文档</div>
-  <z-tab v-model:active-key="activeKey">
-    <z-tab-item class="tab-item-doc" key="1" title="学习">学习</z-tab-item>
-    <z-tab-item class="tab-item-doc" key="2" title="放映厅">放映厅</z-tab-item>
-    <z-tab-item class="tab-item-doc" key="3" title="单机游戏">单机游戏</z-tab-item>
-  </z-tab>
+  <div class="container">
+    <demo-doc title="tab切换" description="内容有关联的不同类型的数据" :component="TabDemo"></demo-doc>
+    <attr :columns="columns" :data="data"></attr>
+  </div>
 </template>
-<script lang="ts">
-import { ref } from 'vue'
-import ZTab from '../components/tab/Tab.vue';
-import ZTabItem from '../components/tab/TabItem.vue';
+
+<script>
+import DemoDoc from '../components/Demo.vue';
+import TabDemo from '../demo-code/TabDemo.vue';
+import {columns} from '../lib/data.ts';
+import Attr from '../components/Attr.vue';
+
 export default {
-  components: {ZTabItem, ZTab},
+  components: {Attr, DemoDoc},
   setup() {
-    const activeKey = ref<string>('2')
+    const data = [
+      {
+        params: 'z-tab-item',
+        desc: 'tab页签',
+        type: 'component',
+        select: 'z-tab-item',
+        default: '--',
+      },
+    ];
+
     return {
-      activeKey
-    }
-  }
+      TabDemo,
+      columns,
+      data,
+    };
+  },
 };
 </script>
 
 <style lang="less" scoped>
-.tab-item-doc {
-  padding: 10px 20px;
-  font-size: 14px;
+.show-content {
+  padding: 40px 20px;
 }
 </style>

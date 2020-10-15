@@ -27,6 +27,7 @@ export default {
         menuVisible.value = false
       }
       NProgress.done()
+      window.scrollTo(0, 0)
     })
   }
 }

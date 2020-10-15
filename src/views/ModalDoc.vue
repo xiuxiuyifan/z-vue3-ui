@@ -1,73 +1,53 @@
 <template>
-  <z-button size="mini" theme="primary" @click="showModal">打开对话框</z-button>
-  <z-modal
-      v-model:visible="visible"
-      :ok="onOk"
-      :cancel="onCancel"
-  >
-    <template v-slot:title>
-      <span class="modal-title-doc">标题</span>
-    </template>
-    <template v-slot:content>
-      <div class="content-doc">展示的内容</div>
-    </template>
-  </z-modal>
-
-  <z-button size="mini" theme="primary" @click="showModalFunc">另一种方式打开</z-button>
+  <demo-doc title="基本用法" description="弹出一个对话框" :component="ModalDemo"></demo-doc>
+  <demo-doc title="函数式调用" description="隐藏dom结构，只暴露出调用的api" :component="ModalDemo1"></demo-doc>
+  <attr :columns="columns" :data="data"></attr>
 </template>
-<script lang="ts">
-import {ref} from 'vue'
-import ZButton from '../components/Button.vue';
-import ZModal from '../components/Modal.vue';
-import {openModal} from "../components/openModal";
+<script>
+import DemoDoc from '../components/Demo.vue';
+import ModalDemo from '../demo-code/ModalDemo.vue';
+import ModalDemo1 from '../demo-code/ModalDemo1.vue';
+import {columns} from '../lib/data';
+import Attr from '../components/Attr.vue';
 
 export default {
-  components: {ZButton, ZModal},
+  components: {Attr, DemoDoc},
   setup() {
-
-    const visible = ref<boolean>(false)
-
-    const showModal = () => {
-      visible.value = true
-    }
-
-    const onOk = () => {
-    }
-
-    const onCancel = () => {
-    }
-
-    const showModalFunc = () => {
-      const visible = true
-
-      let vm = openModal({
-        visible,
-        title: '标题',
-        content: '对话框内容',
-        ok: () => {
-          console.log('ok');
-          return false
-        },
-        cancel: () => {
-          console.log('取消');
-        }
-      })
-
-    }
-
+    const data = [
+      {
+        params: 'visible',
+        desc: '是否展示',
+        type: 'boolean',
+        select: 'true / false',
+        default: 'normal',
+      },
+      {
+        params: 'ok',
+        desc: '确认触发函数',
+        type: 'function',
+        select: '()=>{}',
+        default: '--',
+      },
+      {
+        params: 'cancel',
+        desc: '取消触发函数',
+        type: 'function',
+        select: '()=>{}',
+        default: '--',
+      },
+    ];
     return {
-      showModal,
-      visible,
-      onOk,
-      onCancel,
-      showModalFunc
-    }
-  }
+      ModalDemo,
+      ModalDemo1,
+      columns,
+      data,
+    };
+  },
 };
 </script>
 
 <style lang="less" scoped>
-.content-doc, .modal-title-doc {
-  font-size: 14px;
+.show-content {
+  padding: 40px 20px;
 }
 </style>

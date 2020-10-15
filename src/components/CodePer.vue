@@ -10,10 +10,10 @@
       </div>
       <div class="demo-block-control" @click="toggle">
         <svg class="down" aria-hidden="true">
-          <use xlink:href="#icon-iup"></use>
+          <use :xlink:href="showCode===false?'#icon-iup':'#icon-idown-copy'"></use>
         </svg>
         <transition name="fade">
-          <span class="show-world" v-show="show">显示代码</span>
+          <span class="show-world" v-show="show">{{ showCode === true ? '隐藏代码' : '显示代码' }}</span>
         </transition>
       </div>
     </div>
@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts">
-import {ref} from 'vue'
+import {ref, computed} from 'vue'
 import 'prismjs/'
 import 'prismjs/themes/prism.css'
 
@@ -37,17 +37,25 @@ export default {
   setup(props, context) {
     const show = ref(false)
     const enter = () => {
-      console.log('进入');
       show.value = true
     }
     const leave = () => {
-      console.log('移出');
       show.value = false
     }
+
     return {
       show,
       enter,
       leave
+    }
+  },
+  computed: {
+    showCode: function () {
+      if (this.height === 0) {
+        return false
+      } else {
+        return true
+      }
     }
   },
   data() {
@@ -65,7 +73,6 @@ export default {
       const codePer = this.$refs.codePer
       let {height} = codePer.getBoundingClientRect()
       this.computedHeight = height
-      console.log(this.computedHeight);
     })
   },
   methods: {
@@ -101,9 +108,10 @@ pre {
 
   &:hover {
     box-shadow: 0 0 8px 0 rgba(232, 237, 250, .6), 0 2px 4px 0 rgba(232, 237, 250, .5);
-    //.down{
-    //  transform: translateX(-40px);
-    //}
+
+    .down {
+      transform: translateX(-35px);
+    }
   }
 }
 
@@ -132,7 +140,7 @@ pre {
     left: 0;
 
     &:hover {
-      color: #409eff;
+      color: #aca8ff;
       background-color: #f9fafc;
     }
 
@@ -140,34 +148,36 @@ pre {
       width: 16px;
       height: 44px;
       fill: currentcolor;
-      transition: all .2s linear;
+      transition: all .3s;
     }
 
     .show-world {
       position: absolute;
       font-size: 14px;
       line-height: 44px;
-      display: inline-block;
-      vertical-align: top;
-      transition: all 0.2s;
+      transition: all 0.3s;
       transform: translateX(-30px);
+
+      &.fade-enter {
+        opacity: 0;
+        transform: translateX(10px);
+      }
+
+      &.fade-enter-to {
+        opacity: 1;
+        transform: translateX(-30px);
+      }
+
+      &.fade-leave {
+        opacity: 1;
+        transform: translateX(-30px);
+      }
+
+      &.fade-leave-to {
+        opacity: 0;
+        transform: translateX(0px);
+      }
     }
-  }
-
-  .fade-enter {
-    transform: translateX(0px);
-  }
-
-  .fade-enter-to {
-    transform: translateX(-30px);
-  }
-
-  .fade-leave {
-    transform: translateX(-30px);
-  }
-
-  .fade-leave-to {
-    transform: translateX(0px);
   }
 }
 </style>

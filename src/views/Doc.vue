@@ -63,13 +63,13 @@ export default {
     box-shadow: 0 2px 8px #f0f1f2;
   }
   .router-view-wrapper{
-      padding-top: 70px;
-      position: relative;
-      max-width: 700px;
-      margin: 0 auto;
-      padding-bottom: 2000px;
+    padding-top: 70px;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 2000px;
   }
-  .menu-wrapper{
+  .menu-wrapper {
     width: 260px;
     position: fixed;
     overflow-x: hidden;
@@ -78,16 +78,21 @@ export default {
     left: 0;
     bottom: 0;
     border-right: 1px solid #e8e8e8;
-    .menu{
+    z-index: 10;
+    background: #fff;
+
+    .menu {
       padding-top: 10px;
-      h2{
+
+      h2 {
         line-height: 22px;
         padding: 10px;
         font-size: 16px;
         color: #333;
         font-weight: 700;
       }
-      .ul{
+
+      .ul {
         .item-li{
           .link-a{
             display: inline-block;

@@ -24,7 +24,6 @@
 
 <script lang="ts">
 import ZButton from "./Button.vue";
-import {watchEffect} from 'vue'
 
 export default {
   name: 'z-modal',

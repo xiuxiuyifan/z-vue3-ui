@@ -2,12 +2,14 @@
   <div class="top-nav">
     <div class="icon">
       <router-link class="icon" to="/">
-        <svg  aria-hidden="true">
+        <svg aria-hidden="true">
           <use xlink:href="#icon-hehua1"></use>
         </svg>
       </router-link>
     </div>
-    <ul class="menu">
+    <ul class="menu-right-link">
+      <li><a target="_blank" href="https://gitee.com/xiuxiuyifan/z-vue3-ui">码云</a></li>
+      <li><a target="_blank" href="https://github.com/xiuxiuyifan/z-vue3-ui">github</a></li>
       <li>文档</li>
     </ul>
   </div>
@@ -64,17 +66,30 @@ export default {
   z-index: 10;
   font-size: 16px;
   background: #fff;
-  .icon{
+
+  .icon {
     float: left;
-    >svg{
+
+    > svg {
       width: 40px;
       height: 40px;
     }
   }
-  .menu{
+
+  .menu-right-link {
     float: right;
     height: 40px;
     line-height: 40px;
+
+    > li {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 50px;
+
+      > a {
+        color: rgb(105, 37, 141);
+      }
+    }
   }
 }
 .mobel-nav{

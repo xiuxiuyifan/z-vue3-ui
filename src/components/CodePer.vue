@@ -87,7 +87,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 pre {
   margin: 0;
   background-color: #fafafa;

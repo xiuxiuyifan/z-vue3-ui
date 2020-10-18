@@ -2,15 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdowm/fast.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdowm/use.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/_var.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/less/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Attr.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Attr.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tab/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tab/TabItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/TabItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/Button1Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button1Demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo-code/TabDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/TabDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/fast.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/fast.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/introduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/introduce.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/use.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/use.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ButtonDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/FastDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FastDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ModalDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ModalDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/TabDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/UseDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -57,14 +79,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\code\vue\z-vue-ui\src\components" />
       <recent name="C:\Users\code\vue\z-vue-ui\src\lib" />
       <recent name="C:\Users\code\vue\z-vue-ui" />
       <recent name="C:\Users\code\vue\z-vue-ui\src" />
-      <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\code\vue\z-vue-ui\src\views" />
     </key>
   </component>
@@ -96,7 +118,9 @@
       <workItem from="1602515640765" duration="6180000" />
       <workItem from="1602584853864" duration="17143000" />
       <workItem from="1602676638020" duration="9689000" />
-      <workItem from="1602758497195" duration="11650000" />
+      <workItem from="1602758497195" duration="12537000" />
+      <workItem from="1602901946625" duration="3810000" />
+      <workItem from="1602985333486" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -210,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602763324557</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="最后的修改，差打包发布">
+      <created>1602777151660</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602777151660</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +263,8 @@
     <MESSAGE value="md文档页添加图片" />
     <MESSAGE value="md文件修改错误" />
     <MESSAGE value="图片路径错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片路径错误" />
+    <MESSAGE value="最后的修改，差打包发布" />
+    <option name="LAST_COMMIT_MESSAGE" value="最后的修改，差打包发布" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -240,15 +272,15 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="714" y="153" key="#Deployment/0.0.2048.1152@0.0.2048.1152" timestamp="1601304182220" />
-    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599883572337">
+    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602986237623">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1599883572337" />
-    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602763323841">
+    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1602986237623" />
+    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602777150872">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="531" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601647846932" />
-    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602763323841" />
+    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602777150872" />
     <state x="395" y="97" key="DiffContextDialog" timestamp="1601304569866">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -269,15 +301,15 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="626" y="0" key="VCS.ChangelistChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1601304621387" />
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602763329249">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602777159177">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602763329249" />
-    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602594049332">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602777159177" />
+    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602904231967">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="87" y="87" width="1746" height="906" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601543169829" />
-    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1602594049332" />
+    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1602904231967" />
     <state x="1026" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601304605410">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -286,14 +318,14 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304217561" />
-    <state x="633" y="208" width="782" height="736" key="find.popup" timestamp="1602593486812">
+    <state x="633" y="208" width="782" height="762" key="find.popup" timestamp="1602905122090">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="593" y="195" width="733" height="690" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601613226471" />
-    <state x="633" y="208" width="782" height="736" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602593486812" />
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602519906651">
+    <state x="633" y="208" width="782" height="762" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602905122090" />
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602989040096">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602519906651" />
+    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602989040096" />
   </component>
 </project>

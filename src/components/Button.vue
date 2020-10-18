@@ -34,17 +34,17 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="scss">
 @keyframes spin {
   0% {
     transform: rotate(0);
   }
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
 
-@import "../assets/less/_var";
+@import "../assets/scss/_var.scss";
 .z-button{
   display: inline-block;
   line-height: 1;

@@ -88,8 +88,8 @@ export default {
 </script>
 
 
-<style lang="less">
-@zIndex: 2007;
+<style lang="scss">
+$zIndex: 2007;
 .z-modal {
   position: fixed;
   top: 0;
@@ -98,7 +98,7 @@ export default {
   left: 0;
   overflow: auto;
   background: rgba(0, 0, 0, 0.5);
-  z-index: @zIndex;
+  z-index: $zIndex;
 
   .z-modal-wrapper {
     width: 50%;

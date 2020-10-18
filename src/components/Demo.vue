@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .demo-container {
   //padding: 40px;
   h2 {

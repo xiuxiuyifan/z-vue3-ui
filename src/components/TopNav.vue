@@ -10,7 +10,9 @@
     <ul class="menu-right-link">
       <li><a target="_blank" href="https://gitee.com/xiuxiuyifan/z-vue3-ui">码云</a></li>
       <li><a target="_blank" href="https://github.com/xiuxiuyifan/z-vue3-ui">github</a></li>
-      <li>文档</li>
+      <li>
+        <router-link to="/doc/tab">文档</router-link>
+      </li>
     </ul>
   </div>
   <div class="mobel-nav">
@@ -53,8 +55,8 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-.top-nav{
+<style lang="scss" scoped>
+.top-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -62,7 +64,7 @@ export default {
   height: 60px;
   padding: 10px 60px;
   color: #69258d;
-  box-shadow: 0 0 1px rgba(0,0,0,0.25);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
   z-index: 10;
   font-size: 16px;
   background: #fff;

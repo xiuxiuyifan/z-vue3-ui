@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './assets/less/index.less'
+import './assets/scss/index.scss'
 import {router} from "./router";
 import 'github-markdown-css'
 

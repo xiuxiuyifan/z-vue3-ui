@@ -30,8 +30,11 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .z-attr {
+  width: 100%;
+  overflow-x: auto;
+
   h2 {
     font-weight: 400;
     color: #1f2f3d;

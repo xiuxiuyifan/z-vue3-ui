@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .article-wrapper {
   padding: 40px 0;
 }

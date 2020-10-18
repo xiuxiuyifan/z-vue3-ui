@@ -57,12 +57,13 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-.doc{
+<style lang="scss" scoped>
+.doc {
   ::v-deep(.top-nav,.mobel-nav) {
     box-shadow: 0 2px 8px #f0f1f2;
   }
-  .router-view-wrapper{
+
+  .router-view-wrapper {
     padding-top: 70px;
     position: relative;
     max-width: 800px;

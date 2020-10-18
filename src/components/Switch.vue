@@ -11,7 +11,7 @@ export default {
   },
   setup(props, context) {
     const toggle = () => {
-      context.emit('update:value',!props.value)
+      context.emit('update:value', !props.value)
     }
     return {
       toggle
@@ -19,9 +19,10 @@ export default {
   }
 }
 </script>
-<style lang="less">
-@import "../assets/less/_var.less";
-.z-switch{
+<style lang="scss">
+@import "../assets/scss/_var.scss";
+
+.z-switch {
   min-width: 40px;
   height: 20px;
   display: inline-block;
@@ -36,9 +37,10 @@ export default {
   &:focus{
     outline: none;
   }
-  &.open{
-    background: @theme;
-    .item{
+  &.open {
+    background: $theme;
+
+    .item {
       left: 100%;
       margin-left: -1px;
       transform: translateX(-100%);

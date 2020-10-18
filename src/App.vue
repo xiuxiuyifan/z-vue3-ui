@@ -33,14 +33,16 @@ export default {
 }
 </script>
 
-<style lang="less">
-@import "./assets/less/_var";
-#nprogress{
+<style lang="scss">
+@import "assets/scss/_var.scss";
+
+#nprogress {
   .bar {
-    background: @theme !important; //自定义颜色
+    background: $theme !important; //自定义颜色
   }
-  .spinner-icon{
-    border-color: @theme transparent transparent @theme;
+
+  .spinner-icon {
+    border-color: $theme transparent transparent $theme;
   }
 }
 </style>

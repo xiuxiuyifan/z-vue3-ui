@@ -50,32 +50,34 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-@h1_color:#590089;
-@bg:#6e02c3;
-@btn_color:#fff;
-@border_radius:4px;
-.home{
+<style lang="scss" scoped>
+$h1_color: #590089;
+$bg: #6e02c3;
+$btn_color: #fff;
+$border_radius: 4px;
+.home {
   ::v-deep(.top-nav) {
     background: transparent;
   }
-  .content{
+
+  .content {
     background: linear-gradient(145deg, #efe4ff 0%, #cebbe8 100%);
     margin: 0 auto;
     clip-path: ellipse(80% 60% at 50% 40%);
     padding: 200px 0 150px 0;
-    >h1{
+
+    > h1 {
       text-align: center;
       font-size: 34px;
       line-height: 52px;
-      color: @h1_color;
+      color: $h1_color;
     }
-    >h2{
+    >h2 {
       text-align: right;
       padding-right: 100px;
       font-size: 20px;
       line-height: 26px;
-      color: @h1_color;
+      color: $h1_color;
       margin-top: 12px;
     }
     .btn{
@@ -85,11 +87,11 @@ export default {
       .git{
         margin-right: 15px;
       }
-      >a{
-        background: @bg;
+      >a {
+        background: $bg;
         padding: 8px 20px;
-        color: @btn_color;
-        border-radius: @border_radius;
+        color: $btn_color;
+        border-radius: $border_radius;
       }
     }
   }

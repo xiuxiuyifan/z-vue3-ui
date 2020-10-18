@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .show-content {
   padding: 40px 20px;
 }

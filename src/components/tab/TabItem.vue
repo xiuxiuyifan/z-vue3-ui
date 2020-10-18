@@ -10,8 +10,8 @@ export default {
 }
 </script>
 
-<style lang="less">
-.z-tab-item{
+<style lang="scss">
+.z-tab-item {
 
 }
 </style>

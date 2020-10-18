@@ -80,8 +80,8 @@ export default {
 
 </script>
 
-<style lang="less">
-.z-tab{
+<style lang="scss">
+.z-tab {
   .z-tab-header {
     color: #393e46;
     position: relative;

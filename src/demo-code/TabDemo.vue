@@ -23,7 +23,7 @@ export default {
   }
 };
 </script>
-<style lang="less">
+<style lang="scss">
 .tab-item-doc {
   padding: 20px 12px;
 }

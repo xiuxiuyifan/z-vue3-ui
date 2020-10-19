@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/_var.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/less/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Attr.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Attr.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tab/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/Tab.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tab/TabItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab/TabItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/Button1Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button1Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/TabDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/TabDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/markdowm/fast.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/fast.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/introduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/introduce.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/use.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/use.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ButtonDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FastDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FastDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ModalDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ModalDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TabDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UseDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +89,8 @@
       <workItem from="1602676638020" duration="9689000" />
       <workItem from="1602758497195" duration="12537000" />
       <workItem from="1602901946625" duration="3810000" />
-      <workItem from="1602985333486" duration="2828000" />
+      <workItem from="1602985333486" duration="3505000" />
+      <workItem from="1603081641533" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -241,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602777151660</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="npm包发布成功，修改文档页">
+      <created>1602989282074</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602989282074</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +241,8 @@
     <MESSAGE value="md文件修改错误" />
     <MESSAGE value="图片路径错误" />
     <MESSAGE value="最后的修改，差打包发布" />
-    <option name="LAST_COMMIT_MESSAGE" value="最后的修改，差打包发布" />
+    <MESSAGE value="npm包发布成功，修改文档页" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm包发布成功，修改文档页" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -276,11 +254,11 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1602986237623" />
-    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602777150872">
+    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602989280893">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="531" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601647846932" />
-    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602777150872" />
+    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602989280893" />
     <state x="395" y="97" key="DiffContextDialog" timestamp="1601304569866">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -301,10 +279,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="626" y="0" key="VCS.ChangelistChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1601304621387" />
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602777159177">
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602989334801">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602777159177" />
+    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602989334801" />
     <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602904231967">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

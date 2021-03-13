@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="npm包发布成功，修改文档页">
-      <change afterPath="$PROJECT_DIR$/src/components/table/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo-code/TableDemo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo-code/TableDemo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TableDoc.vue" afterDir="false" />
+    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TabDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,7 @@
       <workItem from="1610186707111" duration="23000" />
       <workItem from="1615215909001" duration="3589000" />
       <workItem from="1615626389564" duration="3411000" />
-      <workItem from="1615629915156" duration="4547000" />
+      <workItem from="1615629915156" duration="5278000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -233,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602989282074</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="新增table组件">
+      <created>1615643809552</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615643809552</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +258,8 @@
     <MESSAGE value="图片路径错误" />
     <MESSAGE value="最后的修改，差打包发布" />
     <MESSAGE value="npm包发布成功，修改文档页" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm包发布成功，修改文档页" />
+    <MESSAGE value="新增table组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增table组件" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

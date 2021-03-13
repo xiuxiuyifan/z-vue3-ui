@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
+    <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="npm包发布成功，修改文档页">
+      <change afterPath="$PROJECT_DIR$/src/components/table/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo-code/TableDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demo-code/TableDemo1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TableDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/fast.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdowm/fast.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/TabDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,9 @@
     <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="js.ns.project" value="true" />
+    <property name="js.ns.project.flavor" value="JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue3-element-plus-admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,7 +51,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="E:\program\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -91,6 +99,13 @@
       <workItem from="1602901946625" duration="3810000" />
       <workItem from="1602985333486" duration="3505000" />
       <workItem from="1603081641533" duration="305000" />
+      <workItem from="1610169908926" duration="88000" />
+      <workItem from="1610170092147" duration="157000" />
+      <workItem from="1610170307501" duration="92000" />
+      <workItem from="1610186707111" duration="23000" />
+      <workItem from="1615215909001" duration="3589000" />
+      <workItem from="1615626389564" duration="3411000" />
+      <workItem from="1615629915156" duration="4547000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>
@@ -244,66 +259,5 @@
     <MESSAGE value="npm包发布成功，修改文档页" />
     <option name="LAST_COMMIT_MESSAGE" value="npm包发布成功，修改文档页" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="714" y="153" key="#Deployment" timestamp="1601304182220">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="714" y="153" key="#Deployment/0.0.2048.1152@0.0.2048.1152" timestamp="1601304182220" />
-    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602986237623">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="766" y="352" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1602986237623" />
-    <state x="566" y="0" key="CommitChangelistDialog2" timestamp="1602989280893">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="531" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1601647846932" />
-    <state x="566" y="0" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1602989280893" />
-    <state x="395" y="97" key="DiffContextDialog" timestamp="1601304569866">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="395" y="97" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304569866" />
-    <state x="553" y="275" key="MultipleFileMergeDialog" timestamp="1601304008923">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="553" y="275" key="MultipleFileMergeDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304008923" />
-    <state x="980" y="104" key="RollbackChangesDialog" timestamp="1601304103889">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="980" y="104" key="RollbackChangesDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304103889" />
-    <state x="424" y="135" key="SettingsEditor" timestamp="1599883524842">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="424" y="135" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1599883524842" />
-    <state x="626" y="0" key="VCS.ChangelistChooser" timestamp="1601304621387">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="626" y="0" key="VCS.ChangelistChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1601304621387" />
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2" timestamp="1602989334801">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="517" y="241" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1602989334801" />
-    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602904231967">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="87" y="87" width="1746" height="906" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601543169829" />
-    <state x="93" y="93" width="1862" height="966" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1602904231967" />
-    <state x="1026" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1601304605410">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="1026" y="145" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1601304605410" />
-    <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601304217561">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="803" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1152@0.0.2048.1152" timestamp="1601304217561" />
-    <state x="633" y="208" width="782" height="762" key="find.popup" timestamp="1602905122090">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="593" y="195" width="733" height="690" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1601613226471" />
-    <state x="633" y="208" width="782" height="762" key="find.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602905122090" />
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup" timestamp="1602989040096">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="603" y="117" width="840" height="1034" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1602989040096" />
   </component>
 </project>

@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import DemoDoc from '../components/Demo.vue';
 import TabDemo from '../demo-code/TabDemo.vue';
 import {columns} from '../lib/data.ts';

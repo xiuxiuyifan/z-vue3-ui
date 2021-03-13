@@ -29,6 +29,9 @@
           <li class="item-li">
             <router-link class="link-a" to="/doc/modal">modal组件</router-link>
           </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/table">table组件</router-link>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,6 +1,3 @@
-<demo>
-示例代码
-</demo>
 <template>
   <z-tab v-model:active-key="activeKey">
     <z-tab-item class="tab-item-doc" key="1" title="学习">学习</z-tab-item>

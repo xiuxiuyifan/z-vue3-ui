@@ -1,6 +1,3 @@
-<demo>
-示例代码
-</demo>
 <template>
   <div>
     <z-button class="b-m b-b">默认大小</z-button>

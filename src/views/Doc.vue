@@ -18,19 +18,52 @@
         <h2>组件</h2>
         <ul class="ul">
           <li class="item-li">
-            <router-link class="link-a" to="/doc/switch">switch组件</router-link>
+            <router-link class="link-a" to="/doc/switch">switch</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/button">button组件</router-link>
+            <router-link class="link-a" to="/doc/button">button</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/tab">tab组件</router-link>
+            <router-link class="link-a" to="/doc/tab">tab</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/modal">modal组件</router-link>
+            <router-link class="link-a" to="/doc/modal">modal</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/table">table组件</router-link>
+            <router-link class="link-a" to="/doc/checkbox">checkbox</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/table">table</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/form">form</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/nav">Nav</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/nav">轮播图</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/nav">图片上传</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/scroll">滚动</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/data-picker">Datapicker</router-link>
+          </li>
+        </ul>
+        <h2>指令</h2>
+        <ul class="ul">
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/switch">v-loading</router-link>
+          </li>
+        </ul>
+        <h2>业务组件</h2>
+        <ul class="ul">
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/switch">表格搜索</router-link>
           </li>
         </ul>
       </div>

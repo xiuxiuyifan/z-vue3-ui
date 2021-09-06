@@ -1,9 +1,6 @@
-<demo>
-示例代码
-</demo>
 <template>
   <div>
-    <z-switch v-model:value="check"></z-switch>
+    <z-switch v-model="check" @change="gogo"></z-switch>
   </div>
 </template>
 
@@ -16,9 +13,13 @@ export default {
     ZSwitch,
   },
   setup() {
-    const check = ref(true)
+    const check = ref(false)
+    const gogo = () => {
+      console.log('hihihi')
+    }
     return {
-      check
+      check,
+      gogo
     }
   }
 }

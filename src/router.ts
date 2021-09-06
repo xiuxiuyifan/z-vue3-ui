@@ -13,6 +13,7 @@ import Fast from './views/FastDoc.vue'
 import Use from './views/UseDoc.vue'
 import Modal from './views/ModalDoc.vue'
 import Table from './views/TableDoc.vue'
+import CheckboxDoc from "./views/CheckboxDoc"
 
 const router = createRouter( {
   history: hashRouter,
@@ -31,6 +32,7 @@ const router = createRouter( {
         {path: 'button', component: Button},
         {path: 'modal', component: Modal},
         {path: 'table', component: Table},
+        {path: 'checkbox', component: CheckboxDoc},
       ]
     }
   ]

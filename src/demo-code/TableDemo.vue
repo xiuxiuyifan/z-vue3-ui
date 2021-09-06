@@ -1,6 +1,3 @@
-<demo>
-示例代码
-</demo>
 <template>
   <z-table
       :columns="columns"

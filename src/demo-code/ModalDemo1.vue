@@ -1,6 +1,3 @@
-<demo>
-示例代码
-</demo>
 <template>
   <z-button size="mini" theme="primary" @click="showModalFunc">另一种方式打开</z-button>
 </template>

@@ -1,6 +1,3 @@
-<demo>
-示例代码
-</demo>
 <template>
   <z-button size="mini" theme="primary" @click="showModal">打开对话框</z-button>
 

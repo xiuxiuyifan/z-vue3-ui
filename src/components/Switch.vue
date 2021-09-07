@@ -3,13 +3,18 @@
 </template>
 
 <script lang="ts">
-import {ref} from 'vue'
-export default {
+import {defineComponent} from 'vue'
+export default defineComponent({
   name:'z-switch',
   props: {
-    value:Boolean
+    value: {
+      type: Boolean,
+      default: true
+    }
   },
+  emits: ['update:value'],
   setup(props, context) {
+    console.log(props)
     const toggle = () => {
       context.emit('update:value', !props.value)
     }
@@ -17,7 +22,7 @@ export default {
       toggle
     }
   }
-}
+})
 </script>
 <style lang="scss">
 @import "../assets/scss/_var.scss";

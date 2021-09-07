@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/source-code.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkbox/Checkbox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkbox/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/CheckboxDoc.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugins/md.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/Button1Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button1Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/Button2Demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/Button2Demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/ButtonDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/ModalDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/ModalDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/ModalDemo1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/ModalDemo1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo-code/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/TabDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/TabDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/TableDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/TableDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/TableDemo1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/TableDemo1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/fast.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/fast.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/introduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/introduce.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdowm/use.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/use.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/FastDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FastDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UseDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +133,7 @@
       <workItem from="1621162540260" duration="59000" />
       <workItem from="1621162652021" duration="55000" />
       <workItem from="1627303033047" duration="5375000" />
-      <workItem from="1630850815363" duration="14485000" />
+      <workItem from="1630850815363" duration="21651000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>

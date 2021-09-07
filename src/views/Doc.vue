@@ -45,7 +45,7 @@
             <router-link class="link-a" to="/doc/nav">轮播图</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/nav">图片上传</router-link>
+            <router-link class="link-a" to="/doc/upload">图片上传</router-link>
           </li>
           <li class="item-li">
             <router-link class="link-a" to="/doc/scroll">滚动</router-link>
@@ -57,13 +57,13 @@
         <h2>指令</h2>
         <ul class="ul">
           <li class="item-li">
-            <router-link class="link-a" to="/doc/switch">v-loading</router-link>
+            <router-link class="link-a" to="/doc/v-loading">v-loading</router-link>
           </li>
         </ul>
         <h2>业务组件</h2>
         <ul class="ul">
           <li class="item-li">
-            <router-link class="link-a" to="/doc/switch">表格搜索</router-link>
+            <router-link class="link-a" to="/doc/table-search">表格搜索</router-link>
           </li>
         </ul>
       </div>

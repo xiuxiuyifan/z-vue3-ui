@@ -8,7 +8,7 @@ import {ref} from 'vue'
 export default {
   setup() {
     const content = ref<string>('')
-    import('../markdowm/introduce.md')
+    import('../markdown/introduce.md')
     .then((res)=>{
       content.value = res.default
     })

@@ -1,4 +1,4 @@
-import { md } from "./plugins/md";
+import md from "./plugins/md";
 import SourceCode from "./plugins/source-code";
 import {defineConfig} from 'vite'
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -17,5 +17,5 @@ export default defineConfig({
     }
   },
   //可以直接引入markdown文件
-  plugins: [vue(), vueJsx(), SourceCode()]
+  plugins: [vue(), vueJsx(), SourceCode(), md()]
 })

@@ -15,8 +15,13 @@ export default defineComponent({
     }
 
     return () => (
-      <span class={`z-checkbox ${props.checked ? 'is-checked' : ''}`} onClick={handleClick}>
-        <input type="checkbox" class={`input-checkbox`} checked={props.checked}/>
+      <span 
+        class={`z-checkbox ${props.checked ? 'is-checked' : ''}`} 
+        onClick={handleClick}>
+        <input 
+          type="checkbox" 
+          class={`input-checkbox`}
+          checked={props.checked}/>
       </span>
     )
   }

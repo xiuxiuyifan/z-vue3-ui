@@ -1,0 +1,29 @@
+.z-form-item {
+  display: flex;
+  margin-bottom: 18px;
+
+  .label {
+    color: #606266;
+    font-size: 14px;
+    line-height: 40px;
+
+    &.required-label::before {
+      content: "*";
+      color: #f56c6c;
+      margin-right: 4px;
+    }
+  }
+
+  .form-item-content {
+    position: relative;
+
+    .error-msg {
+      color: #f56c6c;
+      font-size: 12px;
+      line-height: 1;
+      position: absolute;
+      top: 100%;
+      margin-top: 4px;
+    }
+  }
+}

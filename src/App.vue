@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts">
-import {ref,provide} from 'vue'
+import {ref,provide, getCurrentInstance} from 'vue'
 import {menuStatus} from "./utils/utils.ts";
 import {router} from "./router";
 
@@ -29,6 +29,7 @@ export default {
       NProgress.done()
       window.scrollTo(0, 0)
     })
+
   }
 }
 </script>

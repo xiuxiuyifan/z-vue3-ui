@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/FormDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/md.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/SwitchDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/fast.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/fast.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/introduce.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/introduce.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdowm/use.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/use.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FastDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FastDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/IntroduceDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UseDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/Checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/CheckboxDoc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/CheckboxDoc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ts.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript JSX" />
     <property name="js.ns.project" value="true" />
     <property name="js.ns.project.flavor" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../webpack/ff-webpack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +61,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="E:\program\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -134,6 +129,8 @@
       <workItem from="1621162652021" duration="55000" />
       <workItem from="1627303033047" duration="5375000" />
       <workItem from="1630850815363" duration="21651000" />
+      <workItem from="1631721376260" duration="18000" />
+      <workItem from="1636461532841" duration="2297000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>

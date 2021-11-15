@@ -51,7 +51,7 @@
             <router-link class="link-a" to="/doc/scroll">滚动</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/data-picker">Datapicker</router-link>
+            <router-link class="link-a" to="/doc/date-picker">Datepicker</router-link>
           </li>
         </ul>
         <h2>指令</h2>
@@ -85,10 +85,6 @@ export default {
     return {
       menuVisible
     }
-  },
-  mounted() {
-  },
-  methods: {
   }
 }
 </script>

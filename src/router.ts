@@ -1,6 +1,5 @@
-import {createRouter, createWebHistory , createWebHashHistory} from "vue-router";
+import {createRouter, createWebHashHistory} from "vue-router";
 
-const history = createWebHistory()
 const hashRouter = createWebHashHistory()
 
 import Home from './views/Home.vue'
@@ -14,29 +13,46 @@ import Use from './views/UseDoc.vue'
 import Modal from './views/ModalDoc.vue'
 import Table from './views/TableDoc.vue'
 import CheckboxDoc from "./views/CheckboxDoc"
+import FormDoc from "./views/FormDoc.vue"
 
-const router = createRouter( {
+import NavDoc from "./views/NavDoc.vue";
+import UploadDoc from "./views/UploadDoc.vue";
+import ScrollDoc from "./views/ScrollDoc.vue";
+import DatePickerDoc from "./views/DatePickerDoc.vue";
+import VLoadingDoc from "./views/VLoadingDoc.vue";
+import TableSearchDoc from "./views/TableSearchDoc.vue";
+
+
+const router = createRouter({
   history: hashRouter,
-  linkActiveClass:'link-active',
+  linkActiveClass: "link-active",
   routes: [
-    {path: '/', component: Home},
+    { path: "/", component: Home },
     {
-      path: '/doc',
+      path: "/doc",
       component: Doc,
       children: [
-        {path: 'introduce', component: Introduce},
-        {path: 'fast', component: Fast},
-        {path: 'use', component: Use},
-        {path: 'tab', component: Tab},
-        {path: 'switch', component: Switch},
-        {path: 'button', component: Button},
-        {path: 'modal', component: Modal},
-        {path: 'table', component: Table},
-        {path: 'checkbox', component: CheckboxDoc},
-      ]
-    }
-  ]
-})
+        { path: "introduce", component: Introduce },
+        { path: "fast", component: Fast },
+        { path: "use", component: Use },
+        { path: "tab", component: Tab },
+        { path: "switch", component: Switch },
+        { path: "button", component: Button },
+        { path: "modal", component: Modal },
+        { path: "table", component: Table },
+        { path: "checkbox", component: CheckboxDoc },
+        { path: "form", component: FormDoc },
+
+        { path: "nav", component: NavDoc },
+        { path: "upload", component: UploadDoc },
+        { path: "scroll", component: ScrollDoc },
+        { path: "v-loading", component: VLoadingDoc },
+        { path: "date-picker", component: DatePickerDoc },
+        { path: "table-search", component: TableSearchDoc }
+      ],
+    },
+  ],
+});
 
 export {
   router

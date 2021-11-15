@@ -68,7 +68,6 @@ export default {
   mounted() {
     //由于打包后不支持
     //换成传入组件的形式
-    console.log(this.component)
     this.html = Prism.highlight(this.component.__sourceCode, Prism.languages.javascript, 'javascript')
     this.$nextTick(() => {
       const codePer = this.$refs.codePer

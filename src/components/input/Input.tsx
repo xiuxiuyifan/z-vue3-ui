@@ -12,9 +12,9 @@ export default defineComponent({
   emits: ['update:value'],
   setup(props, ctx) {
     const { dispatch } = useEmitter()
-    const val = computed(() => {
-      return props.value
-    })
+    // const currentValue = computed(() => {
+    //   return props.value
+    // })
     const handleInput = (e) => {
       let val = e.target?.value
       ctx.emit('update:value', val)
@@ -25,25 +25,42 @@ export default defineComponent({
       let val = e.target?.value
       dispatch('on-form-blur', val)
     }
+
+    const handleClear = () => {
+      ctx.emit('update:value', '')
+    }
     return {
-      val,
+      // currentValue,
       handleInput,
-      handleBlur
+      handleBlur,
+      handleClear
     }
   },
   render() {
     const {
       handleInput,
-      handleBlur
+      handleBlur,
+      handleClear,
+      // currentValue,
+      value
     } = this
     return (
-      <input
-        type="text"
-        value={this.val}
-        onInput={handleInput}
-        onBlur={handleBlur}
-        className='z-input'
-      />
+      <div className='z-input-wrapper'>
+        <input
+          type="text"
+          value={value}
+          onInput={handleInput}
+          onBlur={handleBlur}
+          className='z-input'
+        />
+        {value.length ? (<div className='clear-input-wrapper' onClick={handleClear}>
+          <z-icon
+            icon='guanbi'
+            classics='clear-input'
+          >
+          </z-icon>
+        </div>): null}
+      </div>
     )
   }
 })

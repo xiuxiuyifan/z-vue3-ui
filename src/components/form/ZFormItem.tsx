@@ -1,7 +1,3 @@
-/*
-
-
-*/
 import { defineComponent, computed } from "vue";
 import { useEmitter } from "../hooks/emitter";
 import Validator from 'async-validator'
@@ -24,6 +20,7 @@ export default defineComponent({
     if(this.prop) {
       dispatch('on-form-item-add', this)
       this.setRules()
+      this.initValue = this.form.model[this.prop]
     }
   },
   computed: {
@@ -70,6 +67,7 @@ export default defineComponent({
       //如果用户没有再rule里面传 trigger 默认也要进行校验
       return rules.filter( rule => !rule.trigger || ~rule.trigger.indexOf(trigger))
     },
+    // 给每个组件添加验证
     validate(trigger, callback = function(msg){}) {
       // 拿到传递的需要校验的rules
       let rules = this.filterRules(trigger)
@@ -93,6 +91,12 @@ export default defineComponent({
         this.validateMessage = errors[0].message || ''
         callback(this.validateMessage)
       })
+    },
+    // 重置组件数据
+    resetField() {
+      this.validateState = ''
+      this.validateMessage = ''
+      this.form.model[this.prop] = this.initValue
     },
     onFieldChange() {
       // 只是在用户触发事件的时候进行校验，全部所有的检验在 form 组件里面发起。

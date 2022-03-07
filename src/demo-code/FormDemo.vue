@@ -41,11 +41,12 @@ export default defineComponent({
       formRef.value.resetFields();
     };
     const handleSubmitClick = async () => {
-      let valid = await formRef.value.validate()
-      if(valid) {
+      try{
+        let valid = await formRef.value.validate()
         alert('校验通过！')
-      }else {
-        console.log('校验失败！')
+      }
+      catch(err){
+        err === false ? alert('校验失败！') : null
       }
     }
     return {

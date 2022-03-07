@@ -1,6 +1,6 @@
 <template>
   <div class="z-attr">
-    <h2>Attributes</h2>
+    <h2>{{title}}</h2>
     <table class="attr-table">
       <thead>
       <tr>
@@ -17,17 +17,25 @@
 </template>
 
 <script lang="ts">
-export default {
+import {defineComponent} from 'vue'
+import { isChildComp } from './hooks/helper'
+export default defineComponent({
   name: 'attr',
   props: {
+    title: {
+      type: String,
+      default: 'Attributes'
+    },
     columns: {
       type: Object
     },
     data: {
       type: Object
     }
+  },
+  setup(ctx, {attrs}) {
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>

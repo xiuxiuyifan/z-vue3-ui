@@ -6,6 +6,7 @@
     color: #606266;
     font-size: 14px;
     line-height: 40px;
+    flex-shrink: 0;
 
     &.required-label::before {
       content: "*";
@@ -16,7 +17,9 @@
 
   .form-item-content {
     position: relative;
-
+    .z-input-wrapper{
+      position: relative;
+    }
     .error-msg {
       color: #f56c6c;
       font-size: 12px;

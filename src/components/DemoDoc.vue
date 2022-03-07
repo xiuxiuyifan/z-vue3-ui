@@ -8,9 +8,10 @@
 </template>
 
 <script lang="ts">
+import {defineComponent} from 'vue';
 import CodePer from "./CodePer.vue";
 
-export default {
+export default defineComponent({
   name: 'demo-doc',
   components: {CodePer},
   props: {
@@ -26,7 +27,7 @@ export default {
       type: Object
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>

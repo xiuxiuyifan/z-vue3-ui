@@ -88,7 +88,7 @@ export default defineComponent({
       }, (errors, fields) => {
         // 检验通过 errors 返回一个 null
         this.validateState = !errors ? 'success': 'error'
-        this.validateMessage = errors[0].message || ''
+        this.validateMessage = errors ? errors[0].message : ''
         callback(this.validateMessage)
       })
     },

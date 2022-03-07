@@ -4,7 +4,7 @@
   <attr :columns="columns" :data="data"></attr>
 </template>
 <script>
-import DemoDoc from '../components/Demo.vue';
+import DemoDoc from '../components/DemoDoc.vue';
 import ModalDemo from '../demo-code/ModalDemo.vue';
 import ModalDemo1 from '../demo-code/ModalDemo1.vue';
 import {columns} from '../lib/data';

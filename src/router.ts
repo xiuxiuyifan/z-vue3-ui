@@ -10,9 +10,10 @@ import Button from './views/ButtonDoc.vue'
 import Introduce from './views/IntroduceDoc.vue'
 import Fast from './views/FastDoc.vue'
 import Use from './views/UseDoc.vue'
+import FindQuestion from "./views/FindQuestion.vue";
 import Modal from './views/ModalDoc.vue'
 import Table from './views/TableDoc.vue'
-import CheckboxDoc from "./views/CheckboxDoc"
+import CheckboxDoc from "./views/CheckboxDoc.vue"
 import FormDoc from "./views/FormDoc.vue"
 
 import NavDoc from "./views/NavDoc.vue";
@@ -35,6 +36,7 @@ const router = createRouter({
         { path: "introduce", component: Introduce },
         { path: "fast", component: Fast },
         { path: "use", component: Use },
+        { path: "find-question", component: FindQuestion },
         { path: "tab", component: Tab },
         { path: "switch", component: Switch },
         { path: "button", component: Button },
@@ -48,7 +50,7 @@ const router = createRouter({
         { path: "scroll", component: ScrollDoc },
         { path: "v-loading", component: VLoadingDoc },
         { path: "date-picker", component: DatePickerDoc },
-        { path: "table-search", component: TableSearchDoc }
+        { path: "table-search", component: TableSearchDoc },
       ],
     },
   ],

@@ -14,6 +14,9 @@
           <li class="item-li">
             <router-link class="link-a" to="/doc/use">使用</router-link>
           </li>
+           <li class="item-li">
+            <router-link class="link-a" to="/doc/find-question">举一反三</router-link>
+          </li>
         </ul>
         <h2>组件</h2>
         <ul class="ul">

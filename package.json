@@ -11,9 +11,10 @@
     "build": "vite build"
   },
   "dependencies": {
+    "@types/marked": "^4.0.1",
     "async-validator": "^4.0.7",
     "github-markdown-css": "^4.0.0",
-    "marked": "^1.2.0",
+    "marked": "^4.0.10",
     "mitt": "^3.0.0",
     "nprogress": "^0.2.0",
     "prismjs": "^1.21.0",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.7.10",
+    "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-vue": "^1.6.0",
     "@vitejs/plugin-vue-jsx": "^1.1.7",
     "@vue/compiler-sfc": "^3.2.8",

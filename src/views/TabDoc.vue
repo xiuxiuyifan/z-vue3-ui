@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import DemoDoc from '../components/Demo.vue';
+import DemoDoc from '../components/DemoDoc.vue';
 import TabDemo from '../demo-code/TabDemo.vue';
 import {columns} from '../lib/data.ts';
 import Attr from '../components/Attr.vue';

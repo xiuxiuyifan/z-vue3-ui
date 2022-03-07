@@ -96,7 +96,8 @@ pre {
 }
 
 .demo-wrapper {
-  padding: 24px
+  padding: 24px;
+  overflow: auto;
 }
 
 .fold-code {

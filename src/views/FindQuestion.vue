@@ -8,7 +8,7 @@ import { ref } from 'vue';
 export default {
   setup() {
     const content = ref<string>('');
-    import('../markdown/use.md')
+    import('../markdown/find-question.md')
       .then((res) => {
         content.value = res.default;
       })

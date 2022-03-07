@@ -41,6 +41,7 @@ export default defineComponent({
     })
     // 监听内部组件触发的事件，并调用内部的验证方法
   },
+
   setup(props, {slots,expose}) {
     return {}
   },
@@ -62,9 +63,9 @@ export default defineComponent({
             if(err) {
               valid = false
             }
-            // 必须保证全部校验完毕， 并且在校验过程中有一个失败了。这个form的校验器就返回校验失败
+            // 必须保证全部校验完毕， 
             if(++count === this.fields.length) {
-              resolve(valid)
+              valid ? resolve(valid) : reject(valid)
               // 支持传递回调函数的形式。
               if(typeof callback === 'function') {
                 callback(valid)

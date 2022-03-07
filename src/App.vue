@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import {ref,provide, getCurrentInstance} from 'vue'
-import {menuStatus} from "./utils/utils.ts";
+import {menuStatus} from "./utils/utils";
 import {router} from "./router";
 
 import NProgress from 'nprogress'

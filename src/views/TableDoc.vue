@@ -5,7 +5,7 @@
 
 <script lang="ts">
 import ZTable from "../components/table/index.vue";
-import DemoDoc from "../components/Demo.vue";
+import DemoDoc from "../components/DemoDoc.vue";
 import TableDemo from '../demo-code/TableDemo.vue'
 import TableDemo1 from '../demo-code/TableDemo1.vue'
 

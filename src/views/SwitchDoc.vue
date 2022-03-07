@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import SwitchDemo from "../demo-code/SwitchDemo.vue";
-import DemoDoc from "../components/Demo.vue";
+import DemoDoc from "../components/DemoDoc.vue";
 import {columns} from "../lib/data";
 import Attr from "../components/Attr.vue";
 

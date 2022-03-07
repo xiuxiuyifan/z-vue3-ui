@@ -14,7 +14,7 @@ import CodePer from "../components/CodePer.vue";
 import ButtonDemo from "../demo-code/ButtonDemo.vue";
 import ButtonDemo1 from "../demo-code/Button1Demo.vue";
 import ButtonDemo2 from "../demo-code/Button2Demo.vue";
-import DemoDoc from "../components/Demo.vue";
+import DemoDoc from "../components/DemoDoc.vue";
 import Attr from "../components/Attr.vue";
 import {columns} from "../lib/data";
 

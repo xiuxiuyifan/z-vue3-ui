@@ -15,6 +15,8 @@ import Modal from './views/ModalDoc.vue'
 import Table from './views/TableDoc.vue'
 import CheckboxDoc from "./views/CheckboxDoc.vue"
 import FormDoc from "./views/FormDoc.vue"
+import carouselDoc from "./views/carouselDoc.vue"
+import treeDoc from "./views/treeDoc.vue"
 
 import NavDoc from "./views/NavDoc.vue";
 import UploadDoc from "./views/UploadDoc.vue";
@@ -44,6 +46,8 @@ const router = createRouter({
         { path: "table", component: Table },
         { path: "checkbox", component: CheckboxDoc },
         { path: "form", component: FormDoc },
+        { path: "carousel", component: carouselDoc },
+        { path: "tree", component: treeDoc },
 
         { path: "nav", component: NavDoc },
         { path: "upload", component: UploadDoc },

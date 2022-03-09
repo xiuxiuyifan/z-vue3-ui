@@ -45,7 +45,7 @@
             <router-link class="link-a" to="/doc/nav">Nav</router-link>
           </li>
           <li class="item-li">
-            <router-link class="link-a" to="/doc/nav">轮播图</router-link>
+            <router-link class="link-a" to="/doc/carousel">轮播图</router-link>
           </li>
           <li class="item-li">
             <router-link class="link-a" to="/doc/upload">图片上传</router-link>
@@ -55,6 +55,9 @@
           </li>
           <li class="item-li">
             <router-link class="link-a" to="/doc/date-picker">Datepicker</router-link>
+          </li>
+          <li class="item-li">
+            <router-link class="link-a" to="/doc/tree">Tree</router-link>
           </li>
         </ul>
         <h2>指令</h2>

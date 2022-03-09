@@ -2,34 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="193567b8-ce29-4fc1-870e-be512ee79b29" name="Default Changelist" comment="更新了计划">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputNumber/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tree/ZTree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tree/ZTreeNode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tree/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tree/z-tree-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/utils/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/carouselDoc.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/treeDoc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/md.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/md.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Attr.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Attr.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CodePer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CodePer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/Checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/checkbox/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkbox/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ZForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ZForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ZFormItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ZFormItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/form-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/form-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo-code/FormDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo-code/FormDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tree/tree-item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tree/tree.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/register.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/register.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ButtonDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ButtonDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/CheckboxDoc.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/FormDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/FormDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ModalDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ModalDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/SwitchDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/SwitchDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TabDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TabDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TableDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TableDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UseDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UseDoc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/NavDoc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/NavDoc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +74,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\software\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -166,6 +152,7 @@
       <workItem from="1643116430334" duration="363000" />
       <workItem from="1643118826802" duration="72000" />
       <workItem from="1643384482281" duration="690000" />
+      <workItem from="1646652786354" duration="10195000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目并编写官网样式">
       <created>1601303944572</created>

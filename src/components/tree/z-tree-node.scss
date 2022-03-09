@@ -1,0 +1,78 @@
+.z-tree-node-ul {
+  position: relative;
+  padding-left: 40px;
+
+  .z-tree-node-li {
+    position: relative;
+    padding: 8px 0;
+    font-size: 0;
+
+    .z-tree-head-wrapper {
+      display: inline-flex;
+      align-items: center;
+      box-sizing: border-box;
+      height: 30px;
+      line-height: 28px;
+      min-width: 60px;
+      text-align: center;
+      color: #888;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 0 8px;
+      cursor: pointer;
+
+      .z-tree-icon {
+        font-size: 20px;
+        width: 26px;
+        height: 26px;
+        padding: 6px;
+        margin-right: 6px;
+        margin-left: 6px;
+      }
+      .z-tree-title {
+        color: #606266;
+        font-size: 14px;
+      }
+    }
+  }
+}
+.z-tree ul>li:not(:last-child)::before{
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -40px;
+  border: none;
+  height: 100%;
+  border-left: 1px dashed #c0c4cc;
+}
+.z-tree ul>li:last-child::before{
+  content: "";
+  position: absolute;
+  top: -1px;
+  height: 23px;
+  left: -40px;
+  border: none;
+  border-left: 1px dashed #c0c4cc;
+}
+
+.z-tree ul>li::after{
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: -40px;
+  border: none;
+  width: 40px;
+  border-top: 1px dashed #c0c4cc;
+}
+
+.z-tree-node-ul-outer{
+  padding-left: 0;
+  >li{
+    &::before{
+      display: none;
+    }
+    &::after{
+      display: none;
+    }
+  }
+}

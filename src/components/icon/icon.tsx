@@ -18,7 +18,7 @@ export default defineComponent({
       classics
     } = {...this.$attrs}
 
-    const classStr = `z-icon ${classics}`
+    const classStr = classics ? `z-icon ${classics}` : 'z-icon'
     return (
       <div className={`${classStr}`}>
         <svg aria-hidden="true">
